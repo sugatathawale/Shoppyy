@@ -14,9 +14,9 @@ const Footer = () => {
         <div>
           <p className='text-xl font-medium mb-5'>COMPANY</p>
           <ul className='flex flex-col gap-1 text-gray-600'>
-            {/* <li onClick={()=> navigate('/')}>Home</li>
-            <li  onClick={()=> navigate('/about')}>About us</li> */}
-            <li>Delivery</li>
+          <li onClick={() => navigate('/home')}>Home</li>
+          <li onClick={() => navigate('/about')}>About us</li>
+            {/* <li>Delivery</li> */}
             <li>Privacy policy</li> 
           </ul>
         </div>
@@ -24,8 +24,8 @@ const Footer = () => {
         <div>
           <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
           <ul className='flex flex-col gap-1 text-gray-600'>
-            <li>+1-212-456-7890</li>
-            <li>Contact@foreveryou.com</li>
+            <li>7083056736</li>
+            <li>Forever@gmail.com</li>
           </ul>
         </div>
 
